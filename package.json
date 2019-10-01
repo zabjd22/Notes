@@ -1,0 +1,26 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "A simple Markdown-to-HTML notes app using javascript.",
+  "main": "./app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zabjd22/Notes.git"
+  },
+  "author": "Zetrax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zabjd22/Notes/issues"
+  },
+  "homepage": "https://github.com/zabjd22/Notes#readme",
+  "devDependencies": {
+    "electron": "^6.0.9"
+  },
+  "dependencies": {
+    "marked": "^0.7.0"
+  }
+}
